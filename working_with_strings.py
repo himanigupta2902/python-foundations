@@ -22,3 +22,20 @@ print(mystring[::2])
 print((mystring[2:10:2]))
 print(mystring[::-1])
 print(mystring[10:2:-2])
+
+###### string concatenation #######
+
+mystring_1 = "It's a beautiful day"
+print(mystring +'\t'+ mystring_1)
+print(mystring + '\n' + mystring_1)
+test = 'Sam'
+print('P' + test[1:])
+letter = 'z'
+print(letter*10)
+
+print(5+6)
+print('5' + '6')
+print(mystring.upper())
+print((mystring.lower()))
+print(mystring_1.split())
+print(mystring_1.split('t'))
