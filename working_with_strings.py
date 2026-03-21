@@ -39,3 +39,15 @@ print(mystring.upper())
 print((mystring.lower()))
 print(mystring_1.split())
 print(mystring_1.split('t'))
+
+#### String format ######
+print('This is a {}'.format('STRING'))
+print('This {} a {}'.format('is','STRING'))
+print('{q} {b} {f}'.format(q='quick',b='brown',f='fox'))
+print('The result is {}'.format(100/33))
+print('The result is {r:1.3f}'.format(r=100/33))
+name = "Himani"
+print(f'Hello ! My name is {name}')  # new way
+name = "Tanuj"
+age = 33
+print(f"{name}'s age is {age}")
