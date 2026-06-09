@@ -1,4 +1,4 @@
-
+'''
 name = input("Enter your name :")
 print("Hello",name)
 
@@ -64,3 +64,55 @@ elif op=='Subtract':
     subtract(a,b)
 else:
     print("No Operation Chosen")
+'''
+
+#########Loops######################
+
+for i in [5,4,3,2,1]:
+    if(i==3):
+        break
+    print(i)
+
+### finding largest number ######
+largest=0
+for i in [3,41,33,22,75,8,69]:
+    if(i>largest):
+        largest=i
+print("Largest number in the array is :",largest)
+
+######doint operations in loop######
+
+count=0
+for i in [3,41,33,22,75,8,69]:
+    count=count+1
+    print(count,i)
+
+count=0
+for i in [3,41,33,22,75,8,69]:
+    count=count+i
+print("Sum of array is",count)
+
+count=0
+count1=0
+for i in [3,41,33,22,75,8,69]:
+    count=count+i
+    count1=count1+1
+
+print("Average of the array is",count/count1)
+
+#####Loop exercise###############
+sum=0
+count=0
+while True:
+        userInput=input("enter a number :")
+        if userInput=='done':
+            break
+        try:
+            userInput=int(userInput)
+        except:
+            print("Invalid number")
+            continue
+        sum=sum+userInput
+        count=count+1
+print(f"Sum is {sum} , count is {count},average is {sum/count}")
+
